@@ -1,0 +1,199 @@
+/***************
+******** Guildcheck style
+***************/
+body.G {
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana,Arial,"Times New Roman",sans-serif; 
+	background-color: #FFF2D8; 
+	color: #5A2800; 
+	font-size: 13px; 
+}
+.G h1, .G h2 {
+	color: #5A2800;
+}
+.G table tr td table tr {
+	font-size: 13px; 
+	background-color: #F1E0C6; 
+	color: #5A2800; 
+}
+.G table tr td table tr.hdr,.G table td.hdr {
+	background-color: #505050;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center; 
+}
+.G table tr td table tr.spacer {
+	background-color:transparent !important;
+	font-size: 8px !important;
+}
+
+.G a,.G a:link,.G  a:visited,.G  a:active {
+	font-weight: bold;
+	color: #004294;
+	text-decoration: none;
+	font-size: 13px; 
+}
+.G a:hover,.G a:focus {
+	font-weight: bold; 
+	color: #0063DC; 
+	text-decoration: underline; 
+	font-size: 13px; 
+}
+.G input.txt,.G select {
+	border: 1px solid #5A2800;
+	color: #5A2800;
+	font-weight: bold;
+}
+.G input.btn {
+	border: 1px solid #5A2800;
+	color: #5A2800;
+	background-color: #FFF2D8;
+	font-weight: bold;
+}
+/***************
+******** Wartool 2.0 style
+***************/
+body.W {
+	margin: 0px;
+	padding: 0px;
+	background-color:#DCDBDD;
+	font-size: 13px !important; 
+}
+.W table tr td table tr.hdr,.W table td.hdr {
+	font-size:15px;
+	font-weight: bold;
+	text-align: center;
+	text-transform:uppercase;
+}
+.W a,.W a:link,.W  a:visited,.W  a:active {
+	color: #0000FF;
+	text-decoration: none;
+	
+}
+.W a:hover,.W a:focus {
+	color: #0000FF; 
+	text-decoration: none; 
+}
+.W table tr td table tr.spacer {
+	background-color:transparent !important;
+	font-size: 20px !important;
+}
+.W input.txt,.W select {
+	border: 1px solid black;
+	color: black;
+	font-weight: bold;
+}
+.W input.btn {
+	border: 1px solid black;
+	color: black;
+	background-color: white;
+	font-weight: bold;
+}
+/***************
+******** VIP style
+***************/
+body.V {
+	font-family: Verdana,Arial,"Times New Roman",sans-serif !important; 
+	background-color: #333333; 
+	color: #DDDDDD; 
+	font-size: 13px;
+}
+.V tr.on {
+	font-family: Verdana,Arial,"Times New Roman",sans-serif; 
+	color: #f75f5f;
+	font-weight: bold;
+	font-size: 11px;
+}
+.V tr.off {
+	font-family: Verdana,Arial,"Times New Roman",sans-serif !important; 
+	color: #5ff75f;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.V a,.V a:link,.V a:visited,.V a:active {
+	font-weight: bold;
+	color: #3072B4;
+	text-decoration: none;
+}
+.V a:hover,.V a:focus {
+	font-weight: bold; 
+	color: #0093FC; 
+	text-decoration: underline; 
+}
+.V tr.off a,.V tr.off a:link,.V tr.off a:visited,.V tr.off  a:active,.V tr.off a:hover,.V tr.off a:focus {
+	font-family: Verdana,Arial,"Times New Roman",sans-serif; 
+	color: #5ff75f;
+	font-weight: bold;
+	font-size: 11px;
+	text-decoration: none;	
+}
+.V tr.on a,.V tr.on a:link,.V tr.on a:visited,.V tr.on  a:active,.V tr.on a:hover,.V tr.on a:focus {
+	font-family: Verdana,Arial,"Times New Roman",sans-serif; 
+	color: #f75f5f;
+	font-weight: bold;
+	font-size: 11px;
+	text-decoration: none;	
+}
+.V table td.hdr {
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+}
+.V input.txt,.V select {
+	border: 1px solid silver;
+	color: silver;
+	background-color:black;
+	font-weight: bold;
+}
+.V input.btn {
+	border: 1px solid silver;
+	color: silver;
+	background-color: black;
+	font-weight: bold;
+}
+.V table.main { background-image:url(bg.png); } 
+.V td.n { background-image:url(n.png); }
+.V td.ne { background-image:url(ne.png); }
+.V td.nw { background-image:url(nw.png); }
+.V td.e { background-image:url(e.png); }
+.V td.w { background-image:url(w.png); }
+.V td.se { background-image:url(se.png); }
+.V td.sw { background-image:url(sw.png); }
+.V td.s { background-image:url(s.png); }
+
+/***************
+******** Admin CP
+***************/
+fieldset {
+width:90%;
+text-align:left;
+margin-bottom:20px;
+border-color:black;
+}
+fieldset legend {
+font-weight:bold;
+color:#5A2800;
+}
+.G p.sma a,.G p.sma a:link,.G p.sma  a:visited,.G p.sma  a:active,.G p.sma a:hover,.G p.sma a:focus {
+	font-size:10px !important;
+}
+.G table.login,.G table.login tr,.G table.login tr td,.G table.login tr td table,.G table.login tr td table tr,.G table.login tr td table tr td {
+	background:transparent !important;
+}
+/***************
+******** Generics
+***************/
+.hurrr2 {margin-top:0px;}
+.hurrr { margin-top:-3px; }
+.err { font-weight:bold; color: #FF0000; }
+.err1 { font-weight:bold; color:#00BB00; }
+.motd { font-weight:bold; color:#FF3333; }
+.sma { font-size:10px !important; font-weight:normal !important; }
+.wi { width:100%; }
+.he { height:69px; }
+.bld { font-weight:bold !important; }
+.al { text-align:left !important; }
+.ac { text-align:center !important; }
+.ar { text-align:right !important; }
